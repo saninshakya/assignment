@@ -1,0 +1,18 @@
+A page with comments consists of a list of comments and a form for posting new comment. This is it's HTML code:
+
+<ul id='commentList'>
+</ul>
+<form>
+  <input type='text' id='comment'/>
+  <input type='button' id='postComment' value='Post'/>
+</form>
+Write a registerClickHandler function that registers click handler and implements the following logic:
+
+When button with id postComment is clicked, new <li> element should be added to the bottom of the list with id commentList, containing the value of the text field with id comment.
+If the text field is empty, comment should not be posted.
+The value of the text field should be cleared after the comment has been posted.
+For example, after the comment "test" has been posted, lists's HTML code should look like this:
+
+<ul id='commentList'>
+  <li>test</li>
+</ul>

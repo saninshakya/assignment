@@ -1,0 +1,26 @@
+HTML page contains the following form:
+
+<form>
+  <input id="counter" type="text" value="0"/>
+  <input id="increment" type="button" value="Increment"/>
+</form>
+Write a registerClickHandler function that registers a click handler and implements the following logic:
+
+When a button with id increment is clicked, the value of the text field with id counter should be incremented by 1.
+If the value of the text field is not numeric, the button click should set it to 0.
+For example, when the button is clicked on the form above, the value of the text field should change from 0 to 1.
+
+function registerClickHandler ()
+{
+    var value = parseInt(document.getElementById('number').value, 10);
+    value = isNaN(value) ? 0 : value;
+    value++;
+    document.getElementById('number').value = value;
+}
+
+/* HTML code:
+<form>
+   <input type="text" id="number" value="0"/>
+   <input type="button" onclick="registerClickHandler()" id="increment" value="Increment Value" />
+</form>
+*/

@@ -1,0 +1,10 @@
+1. javascript
+	sum
+2. SQL
+	emp and manager ID
+3. CSS
+	
+4. Javascript
+	registerHandler
+5. PHP
+	Change Path

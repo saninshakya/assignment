@@ -1,0 +1,23 @@
+/*Write CSS so that link 
+<a href="http://www.testdome.com">Check documentation</a> looks like:*/
+
+/*Answer*/
+Answer is at 
+https://github.com/skananitos/programmingChallenges/blob/master/html-css/index.html
+
+
+
+
+a {
+	text-decoration: none;
+	text-transform: uppercase;
+	cursor: help;
+}
+
+a:after {
+	content: "<";
+}
+
+a:before {
+	content: ">";
+}

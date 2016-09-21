@@ -1,0 +1,12 @@
+function registerClickHandler() {
+ // Register button click handler
+ 
+ $('#increment').click(function(){
+ 	var val = $('#counter').val();
+   if(Math.round(val) === val){
+     $('#counter').val(0)
+   }else{
+ $('#counter').val(++val);	
+   }
+ })
+}

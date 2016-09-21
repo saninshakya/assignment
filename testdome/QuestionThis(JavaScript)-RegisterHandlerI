@@ -1,0 +1,22 @@
+Fix the bugs in the JavaScript code without removing the setTimeout function. The code currently alerts undefined instead of anchor inner contents.
+=============================================================
+function registerClickHandler() {
+  $('#clickme').click(function() {
+    setTimeout(function() {
+      alert(this.innerHTML);
+    }, 200);
+  });
+}
+
+==============================================================
+
+Correct Answer:
+--------------
+
+function registerClickHandler() {
+  $('#clickme').click(function(e) {
+    setTimeout(function() {
+      alert(e.currentTarget.innerHTML);
+    }, 200);
+  });
+}

@@ -1,0 +1,1 @@
+1. Open the css_layout and double click file "cards.html" in any of your favourite browser.

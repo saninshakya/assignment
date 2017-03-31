@@ -1,0 +1,2 @@
+[29-Mar-2015 10:33:39 America/Denver] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home/thaijyco/public_html/aitsu.asia/calendar/ait/calendar_ait/connection/config.php on line 7
+[29-Mar-2015 10:33:42 America/Denver] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home/thaijyco/public_html/aitsu.asia/calendar/ait/calendar_ait/connection/config.php on line 7

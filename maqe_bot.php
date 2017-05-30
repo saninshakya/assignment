@@ -1,7 +1,6 @@
 <?php
 // get the string passed from the cmd
-// $string = $argv[1];
-$string = 'RRW11RLLW19RRW12LW1';
+$string = $argv[1];
 /*
 * convert the string into array.
 * @$x, $y are set the default co-ordinates of Bot
